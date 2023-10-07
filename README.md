@@ -113,7 +113,10 @@
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/2.png)
 
 5. Произведите первоначальную настройку Git, указав своё настоящее имя и email: `git config --global user.name` и `git config --global user.email johndoe@example.com`.
-![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/1.png) 
+![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/1.png)
+
+6. Выполните команду git status и запомните результат.
+
  
 ---
 
