@@ -98,7 +98,7 @@
 ### Задание 1
 
 1. Мой ник на github
-![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/akk.png)
+![alt Мой ник на github](https://github.com/BudyGun/8-01-homework/blob/main/img/akk.png)
    
 3. `Заполните здесь этапы выполнения, если требуется ....`
 4. `Заполните здесь этапы выполнения, если требуется ....`
