@@ -109,13 +109,13 @@
    Создал: https://github.com/BudyGun/8-01-homework.git
    
 3. Склонируйте репозиторий, используя https протокол `git clone ...`.
-и 4. Перейдите в каталог с клоном репозитория.
+4. Перейдите в каталог с клоном репозитория.
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/2.png)
 
-6. Произведите первоначальную настройку Git, указав своё настоящее имя и email: `git config --global user.name` и `git config --global user.email johndoe@example.com`.
+5. Произведите первоначальную настройку Git, указав своё настоящее имя и email: `git config --global user.name` и `git config --global user.email johndoe@example.com`.
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/1.png)
 
-7. Выполните команду git status и запомните результат.
+6. Выполните команду git status и запомните результат.
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/3.png)
 
 
