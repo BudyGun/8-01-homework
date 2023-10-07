@@ -106,7 +106,7 @@
 
 3. Создайте  **новый отдельный публичный репозиторий**. Обязательно поставьте галочку в поле «Initialize this repository with a README».
 4. Склонируйте репозиторий, используя https протокол `git clone ...`.
-
+![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/2.png)
  
 ---
 
