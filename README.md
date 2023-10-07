@@ -120,7 +120,24 @@
 6. Выполните команду git status и запомните результат.
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/3.png)
 
+7. Отредактируйте файл README.md любым удобным способом, переведя файл в состояние Modified.
+8. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага.
+9. Посмотрите изменения в файле README.md, выполнив команды `git diff` и `git diff --staged`.
 
+ Команда git diff выводит информацию по изменениям файлов, которые не были добавлены в индекс. В моем случае файл README.md не был добавлен в индекс, но в нем были изменения. Вижу это в выведенной информации ниже. Команда git diff --staged ничего не вывела, т.к. эта команда выводит изменения только по файлам, добавленным в индекс. В моем случае таких изменений нет.
+![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/do.png)
+    
+11. Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой `git add README.md`.
+12. Ещё раз выполните команды `git diff` и `git diff --staged`.
+
+После добавления файла README.md в индекс, вижу что результат вывода команды git diff нулевой, т.к. нет изменений в файлах, которые не были добавлены в инжекс, а после ввода комаанды git diff --staged появился результат - изменения в файле README.md, который юыл добавлен в индекс ранее.
+![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/do2.png)
+
+14. Теперь можно сделать коммит `git commit -m 'First commit'`.
+15. Сделайте `git push origin master`.
+![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/do4.png)
+
+[ссылка на коммит](https://github.com/BudyGun/8-01-homework/commit/a18a7e97e1446e2a08c0407c803f7c66f51b3151)
  
 ---
 
