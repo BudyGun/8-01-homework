@@ -116,6 +116,8 @@
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/1.png)
 
 6. Выполните команду git status и запомните результат.
+![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/3.png)
+
 
  
 ---
