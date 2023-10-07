@@ -112,10 +112,10 @@
 и 4. Перейдите в каталог с клоном репозитория.
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/2.png)
 
-5. Произведите первоначальную настройку Git, указав своё настоящее имя и email: `git config --global user.name` и `git config --global user.email johndoe@example.com`.
+6. Произведите первоначальную настройку Git, указав своё настоящее имя и email: `git config --global user.name` и `git config --global user.email johndoe@example.com`.
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/1.png)
 
-6. Выполните команду git status и запомните результат.
+7. Выполните команду git status и запомните результат.
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/3.png)
 
 
