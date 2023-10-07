@@ -95,29 +95,26 @@
 
 ---
 
+Решение.
+
 ### Задание 1
 
-1. Мой ник на github
-![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/akk.png)
+1. Зарегистрируйте аккаунт на [GitHub](https://github.com/).
    
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. `Заполните здесь этапы выполнения, если требуется ....`
-7. 
+Мой ник на github
+![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/akk.png)
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
+2. Создайте  **новый отдельный публичный репозиторий**. Обязательно поставьте галочку в поле «Initialize this repository with a README».
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
+   Создал: https://github.com/BudyGun/8-01-homework.git
+   
+3. Склонируйте репозиторий, используя https протокол `git clone ...`.
+и 4. Перейдите в каталог с клоном репозитория.
+![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/2.png)
 
-
+5. Произведите первоначальную настройку Git, указав своё настоящее имя и email: `git config --global user.name` и `git config --global user.email johndoe@example.com`.
+![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/1.png) 
+ 
 ---
 
 ### Задание 2
