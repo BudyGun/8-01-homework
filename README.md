@@ -173,6 +173,6 @@
 
 В качестве ответа прикрепите ссылку на граф коммитов https://github.com/ваш-логин/ваш-репозиторий/network в ваш md-файл с решением.
 
-[ссылка](https://github.com/BudyGun/8-01-homework/network)
+[Мой ответ - ссылка на граф](https://github.com/BudyGun/8-01-homework/network)
 
 
