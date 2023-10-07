@@ -137,7 +137,7 @@
 15. Сделайте `git push origin master`.
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/do4.png)
 
-![alt ссылка](https://github.com/BudyGun/8-01-homework/commit/a18a7e97e1446e2a08c0407c803f7c66f51b3151)
+![ссылка на коммит](https://github.com/BudyGun/8-01-homework/commit/a18a7e97e1446e2a08c0407c803f7c66f51b3151)
  
 ---
 
