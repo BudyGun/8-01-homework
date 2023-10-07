@@ -27,7 +27,7 @@
 
 
 1. Мой ник на github
-![alt text](https://github.com/BudyGun/reponame/blob/branch/path/akk.png)
+![alt text](https://github.com/BudyGun/img/blob/main/path/akk.png)
    
 3. `Заполните здесь этапы выполнения, если требуется ....`
 4. `Заполните здесь этапы выполнения, если требуется ....`
