@@ -153,6 +153,7 @@
 В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением.
 
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/10.png)
+
 [ссылка на коммит](https://github.com/BudyGun/8-01-homework/commit/574c8099e3992c24283b11693437bf954c57e280}
 
 
