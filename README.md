@@ -100,6 +100,7 @@
 ### Задание 1
 
 1. Зарегистрируйте аккаунт на [GitHub](https://github.com/).
+   
 Мой ник на github
 ![alt text](https://github.com/BudyGun/8-01-homework/blob/main/img/akk.png)
 
