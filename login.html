@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход - Git Homework</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h1>🔐 Вход в систему</h1>
+            <p class="subtitle">Введите логин и пароль для доступа</p>
+            
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Логин</label>
+                    <input type="text" id="username" name="username" required autocomplete="username" placeholder="Введите логин">
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password" required autocomplete="current-password" placeholder="Введите пароль">
+                </div>
+                
+                <div id="errorMessage" class="error-message"></div>
+                
+                <button type="submit" class="btn-login">Войти</button>
+            </form>
+            
+            <div class="info-box">
+                <p><strong>Учетные данные по умолчанию:</strong></p>
+                <p>Логин: <code>admin</code></p>
+                <p>Пароль: <code>password</code></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="auth.js"></script>
+    <script>
+        // Проверяем, не авторизован ли уже пользователь
+        if (isAuthenticated()) {
+            window.location.href = 'index.html';
+        }
+        
+        // Обработка формы входа
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            const errorMessage = document.getElementById('errorMessage');
+            
+            if (login(username, password)) {
+                window.location.href = 'index.html';
+            } else {
+                errorMessage.textContent = '❌ Неверный логин или пароль';
+                errorMessage.style.display = 'block';
+                
+                // Очистить сообщение об ошибке через 3 секунды
+                setTimeout(() => {
+                    errorMessage.style.display = 'none';
+                }, 3000);
+            }
+        });
+    </script>
+</body>
+</html>
